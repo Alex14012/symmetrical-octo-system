@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: AsteroidBeat;
+        src: url(/src/assets/font/Y1AsteroidBeat.otf);
+    }
+
+    @font-face {
+        font-family: CandyCore;
+        src: url(/src/assets/font/Y1CandyCore.otf);
+    }
+}
